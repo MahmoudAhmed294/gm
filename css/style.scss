@@ -1,0 +1,286 @@
+$color1:#151515;
+$color2:#E4381C;
+*{
+    list-style: none;
+    padding: 0;
+}
+
+h1{
+    font-weight: 800;
+}
+
+#sct-3{
+    background-color: $color1;
+    height: 584px;
+    padding-top: 50px;
+    
+    .container{
+        
+        .row{
+            
+            .col-6{
+                h1{
+                    font-size: 43px;
+                    font-weight: 500;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    margin-bottom: 36px;
+                }
+                .btn{
+                    width: 150px;
+                    page-break-after: 5px;
+                    color: white;
+                    font-weight: 600;
+                    padding: 0 12px;
+                    color: #ffffff;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    width: 160px;
+                    height: 46px;
+                    border-left: 2px solid #e16521;
+                    border-right: 2px solid #e4381C;
+                    box-sizing: border-box;
+                    background-position: 0 0, 0 100%;
+                    background-repeat: no-repeat;
+                    background-size: 100% 2px;
+                    background-image: linear-gradient(to right, #e4381C 100%, #e16521 100%), linear-gradient(to right, #e4381C 0%, #e16521 0%);
+                    transition-duration: 1000ms;
+                    line-height: 45px;
+                    position: relative;
+                    z-index: 1;
+                    border-radius: 4px;
+                    &::after{
+                        content: "";
+                        color: #fff;
+                        transition-duration: 500ms;
+                        background: #e16521;
+                        background: linear-gradient(to right, #e16521, #e4381C);
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        z-index: -1;
+                        border-radius: 2px;
+                        opacity: 1;
+                      
+                    }
+                
+                }
+                
+                }
+            }
+        }
+    }
+// ------------------------------------section nmuber 4-------------------------------------------------------------
+#sec-num4{
+    background-image: url('../img/classes-title-bg.webp');
+    background-size: cover;
+    height: 34vh;
+    font-weight: 500;
+
+}
+
+
+// ______________________________new section price____________________________-__
+#price{
+    background-image: url('../img/price-bg.jpg');
+    background-size: cover;
+    height: 140vh !important;
+    .container{
+        .top-dateils{
+            color: white;
+            margin: 0 auto !important;
+            padding: 60px 0 0 0;
+
+            .switch {
+                position: relative;
+                display: inline-block;
+                width: 70px;
+                height: 30px;
+                
+                .switch input { 
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                }
+        
+                .slider {
+                    position: absolute;
+                    border-radius: 2px;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(204, 204, 204, 0.555);
+            transition: .3s ease-in-out;
+            
+        }
+        
+        .slider:before {
+            border-radius: 2px;
+
+            position: absolute;
+            content: "";
+            height: 30px;
+            width: 35px;
+            left: 0px;
+            bottom: 0-px;
+            background-color: white;
+            transition: .4s;
+        }
+        
+        
+        
+        
+        input:checked + .slider:before {
+            transform: translateX(35px);
+        }
+    }   
+}
+        .row{
+            .col-sm-3{
+padding: 0;
+                .card{
+                    .card-body{
+                        
+                       .btn{
+    color: rgba(228, 55, 28, 0.938) !important;
+    width: 50%;
+    height: 50px;
+    padding: 10px !important;
+    letter-spacing: 1px;
+    text-align: center;
+    border-left: 2px solid #e16521 !important;
+    border-right: 2px solid #e4381C !important;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-image: linear-gradient(to right, #e4381C 100%, #e16521 100%), linear-gradient(to right, #e4381C 0%, #e16521 0%);
+    transition-duration: 1000ms;
+    // line-height: 45px;
+    z-index: 1;
+    border-radius: 4px;
+&:hover{
+        content: "";
+        color: #fff !important;
+        transition-duration: 500ms;
+        background: #e16521;
+        background: linear-gradient(to right, #e16521, #e4381C);
+        width: 50%;
+        height: 50px;
+        z-index: 1;
+        border-radius: 2px;
+        opacity: 1;
+      
+    }
+
+}
+#star{
+    background-color: $color2;
+    width: 160px;
+    height: 40px;
+    background: #e4381c;
+    position: absolute;
+    color: white;
+    right: -67px;
+    top: -5px;
+    transform: rotate(45deg);
+    i{
+
+        position: absolute;
+        left: 69px;
+        top: 15px;
+        color: #fff;
+    }
+
+}
+
+
+}
+        
+                    }
+                }
+            }
+        }
+}  
+
+
+//         }
+//     }
+
+// ______________________section 8_____________________
+#service{
+    background-color: $color1;
+    // --------------------------------------------section number 9 video------------------------------------------------------------
+}
+#sectnum8{
+    h1{
+        font-weight: 500;
+
+    }
+    color: white;
+background-image: url('../img/video-bg.webp');
+background-size: cover !important;
+background-position: top center !important;
+background-repeat: no-repeat;
+height: 500px !important;
+padding-top: 150px;
+a{
+ display: inline-block;
+ width: 60px;
+ height: 60px;
+ line-height: 62px;
+ text-align: center ;
+  background-color: white;
+  border-radius: 50%;
+  color: #e4381c;
+  &::after{
+    content: "";
+    background-color: lightgrey;
+    width: 75px;
+    height: 75px;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  margin: -7px -45px;
+opacity: 0.3;
+}   
+
+}
+
+}
+// __________________________________________----------section11----------------__________________________________________________
+  
+
+  #sect11{
+    
+    background: linear-gradient(45deg,#e16521,#e4381C);
+    .container{
+        .row{
+            .text-left{
+                h3{
+                    font-weight: 800;
+                }
+            }
+            .right-text{
+
+                .btn{
+                    width: 150px;
+                    font-weight: 600;
+                    border: 2px white solid;
+                    &:hover{
+                        background-color: transparent !important;
+                        color: #ffffff;
+                    }
+                }
+            }
+            }
+        }
+    }
+
+
+
+
